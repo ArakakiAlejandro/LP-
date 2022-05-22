@@ -338,3 +338,10 @@
   top: 49vh;
   left: 112vh;
 }
+#footer{
+  background-color: black;
+  padding: 2%;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
