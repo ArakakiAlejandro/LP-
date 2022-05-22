@@ -1,0 +1,340 @@
+@charset "UTF-8";
+.body{
+  font-family: 'Noto Serif JP',
+  serif;
+}
+.header_wrapper{
+  width: 100%;  
+}
+#menu ul{
+  display: block;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  z-index: 2;
+  background-color: rgb(235, 221, 208);
+}
+#menu ul li{
+  padding: 0;
+  margin: 0%;
+  font-weight: 100;
+  width: 10.62em;
+  height: 9.86em;
+  text-align: center;
+  font-family: 'Noto Serif JP', serif;
+}
+#menu ul li a{
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+}
+#menu ul li a:hover{
+  color: #888;
+  border-bottom: solid 2px rgb(132, 24, 0);
+}
+.li_1{
+  line-height: 20em;
+}
+.li_2{
+  line-height: 15em;
+}
+.li_3{
+  line-height: 10em;
+}
+.li_4{
+  line-height: 5em;
+}
+.li_5{
+  line-height: 1em;
+}
+.menu_title{
+  position: absolute;
+  top: 745px;
+  left: 85px;
+  font-size: 20px;
+  z-index: 3;
+  font-family: 'Noto Serif JP', serif;
+}
+.top_wrapper{
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  background: url(../img/jeremy-ricketts-6ZnhM-xBpos-unsplash.jpg) no-repeat ;
+  background-size: cover;
+  z-index: 1;
+  width: 88.2%;
+  left: 170px;
+}
+.top_inner {
+  color: white;
+  z-index: 4;
+  font-family: 'Noto Serif JP',
+  serif;
+}
+.top_content_1{
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 45px;
+  top: 165px;
+  left: 1050px;
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+.top_content_2{
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 45px;
+  top: 200px;
+  left: 950px;
+  letter-spacing: 10px;
+  font-weight: 400;
+}
+.top_sub_content{
+  position: absolute;
+  font-size: 50px;
+  left: 950px;
+  top: 655px;
+}
+.inner{
+  width: 100%;
+  height: 106vh;
+  background-color: rgb(254, 246, 241);
+  text-align: center;
+}
+.title{
+  display: inline-block;
+  border-bottom: solid 2px rgb(132, 24, 0);
+  color: rgb(85, 180, 40);
+  font-size: 64px;
+  font-family: 'Noto Serif JP',
+  serif;
+  font-weight: bolder;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  border-bottom: solid 4px rgb(132, 24, 0);
+}
+.section_title{
+  text-align: center;
+}
+.about_section{   
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.about_descript{
+  width: 100%;
+  height: auto;
+}
+.about_content_wrapper{
+  position: absolute;
+  width: 35%;
+  height: 39rem;
+  background-color: white;
+  left: 58%;
+  top: 22%;
+  border-radius: 15%;
+  z-index: 2;
+  text-align: center;
+}
+.about_content_wrapper p{
+    font-family: 'Noto Serif JP',
+    serif;
+  display: inline-block;
+  font-size: 32px;
+  line-height: 45px;
+  letter-spacing: 2px;
+  padding-top: 6%
+}
+.about_img{
+  position: absolute;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  top: 18%;
+}
+.menu_inner{
+  position: relative;
+  height: 100vh;
+  background: url(../img/nathan-dumlao-pMW4jzELQCw-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  width: 100%;
+}
+.menu_content_1{
+  position: absolute;
+  background-color: rgb(254, 246, 241);
+  z-index: 2;
+  width: 70%;
+  height: 35%;
+  top: 23%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  }
+  .menu_content_2{
+  position: absolute;
+  background-color: rgb(254, 246, 241);
+  z-index: 3;
+  width: 70%;
+  height: 35%;
+  top: 58%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-top: solid 7px rgb(224, 176, 165);
+  text-align: center  ;
+  }
+  .menu_head{
+  display: inline-block;
+  font-family: 'Noto Serif JP',
+  serif;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 2%;
+  }
+  .menu_list{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Serif JP',
+    serif;
+    list-style: none;
+    line-height: 2em;
+    left: 18%;
+    padding: 2%;
+  }
+  .price_list{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Noto Serif JP',
+    serif;
+    list-style: none;
+    line-height: 2em;
+    padding-top: 2%;
+    left: 70%;
+    width: 3em;
+  }
+  .price_list li{
+    border-bottom: solid 4px rgb(132, 24, 0);
+    letter-spacing: 5px;
+    height: 7vh;
+  }
+.news_inner{
+  width: 100%;
+  height: 44vh;
+  background-color: rgb(254, 246, 241);
+  z-index: 2;
+}
+.news_wrapper{
+  width: 80%;
+  height: 22vh;
+  margin:0 auto;
+  z-index: 1;
+  text-align: center;
+  border-bottom: solid 4px rgb(132, 24, 0);
+  line-height: 3rem;
+  padding-top: 2%;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 100;
+  font-family: 'Noto Serif JP',
+  serif;
+}
+.access_inner{
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(254, 246, 241);
+  z-index: 1;
+}
+.access_img{
+  text-align: center;
+  padding-top: 3%;
+  z-index: 2;
+}
+.access_txt{
+  position: absolute;
+  z-index: 3;
+  left: 51%;
+  font-size: 28px;
+  font-weight: 100;
+  font-family: 'Noto Serif JP',
+  serif;
+}
+.contact_inner{
+  background: url(../img/pexels-mikotoraw-photographer-5763823.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  opacity: 75%;
+}
+.contact_title {
+  display: inline-block;
+  border-bottom: solid 2px rgb(132, 24, 0);
+  color: rgb(85, 180, 40);
+  font-size: 64px;
+  font-family: 'Noto Serif JP',
+    serif;
+  font-weight: bolder;
+  padding-top: 4%;
+  padding-bottom: 1%;
+  border-bottom: solid 4px rgb(132, 24, 0);
+  text-shadow: 2px 2px 2px black;
+}
+.contact_content{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: 'Noto Serif JP',
+  serif;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.contact_content h1{
+  position: absolute;
+  font-size: 60px;
+  font-weight: 200;
+  right: 0;
+  left: 0;
+  margin: auto;
+  padding-top: 6%;
+}
+.contact_content h2{
+  position: absolute;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 200;
+  right: 0;
+  left: 0;
+  margin: auto;
+  padding-top: 15%;
+}
+.sns_content{
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.sns_title{
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  top: 50vh;
+  left: 50vh;
+  text-shadow: 2px 2px 2px black;
+}
+.twitter_icon{
+  position: absolute;
+  top: 49vh;
+  left: 78vh;
+}
+.insta_icon{
+  position: absolute;
+  top: 49vh;
+  left: 94vh;
+}
+.facebook_icon{
+  position: absolute;
+  top: 49vh;
+  left: 112vh;
+}
